@@ -20,20 +20,15 @@ PROFESSOR PROBLEMS?
 
 -->
 
-# cs203-S2019-practical4-solution
+# cs203-S2019-practical4-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the starter for Practical 4 in Computer Science 203.
-
-<!--
-
 Since the Travis builds for this repository will initially fail (as evidenced
 by a red &#x2717; appearing in the commit logs instead of a green &#x2714;),
 the programmer is responsible for completing all of the steps needed to satisfy
 the requirements for the assignment, thus causing a &#x2714; to instead appear
 in the commit logs.
-
--->
 
 ## Introduction
 
@@ -165,7 +160,7 @@ Running the test suite with `pytest` should produce this output:
 ```
 ============================= test session starts =============================
 platform linux -- Python 3.6.8, pytest-4.1.1, py-1.7.0, pluggy-0.8.1
-rootdir: /home/gkapfham/working/teaching/github-classroom/Allegheny-Computer-Science-203-S2019/solutions/cs203-S2019-practical3-solution, inifile:
+rootdir: /home/gkapfham/working/teaching/github-classroom/Allegheny-Computer-Science-203-S2019/solutions/cs203-S2019-practical4-solution, inifile:
 collected 5 items
 
 tests/test_compute_tf_cookbook.py .....                                 [100%]
