@@ -199,6 +199,7 @@ test suite's execution and the defects in the program under test.
 - termfrequency/compute_tf_cookbook.py:
   - Features at least twelve single-line Python comments
   - Runs correctly through `pipenv` without crashing or producing an error
+  - Does not contain any markers to indicate not-completed student work
   - Produces exactly eight lines of output in the terminal when run with `inputs/input.txt`
 
 - tests/test_compute_tf_cookbook.py:
