@@ -9,6 +9,18 @@ data = []
 words = []
 word_freqs = []
 
+# TODO: As you review the source code in tests/test_compute_tf_cookbook.py
+# make sure that you understand why the functions in this module are not
+# amenable to testing with parameterized pytest test cases. You should also be
+# able to explain what is needed to ensure that this testing is possible.
+
+# TODO: Study the source code and determine whether or not any of
+# this program currently exhibits a "red flag". Please see page 175 of the
+# "Philosophy of Software Design" book for a summary of red flags.
+
+# TODO: If you find a red flag, then please document it appropriately and then
+# try to fix it according to the rules in "Philosophy of Design"
+
 
 def read_file(path_to_file):
     """
