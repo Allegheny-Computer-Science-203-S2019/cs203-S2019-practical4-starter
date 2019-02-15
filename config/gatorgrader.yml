@@ -24,7 +24,7 @@ writing/reflection.md:
     --paragraphs 5 --exact
     --words 100
 # --> check the number of commits beyond a threshold
---commits 10
+--commits 28
 # --> check that the program executes and produces 4 lines of output
 --command "pipenv run python3 termfrequency/compute_tf_cookbook.py inputs/input.txt" --executes
 --command "pipenv run python3 termfrequency/compute_tf_cookbook.py inputs/input.txt" --count 8 --exact
