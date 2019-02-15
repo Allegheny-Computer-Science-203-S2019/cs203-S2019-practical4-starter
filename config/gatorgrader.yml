@@ -12,6 +12,7 @@ tests:
         test_compute_tf_cookbook.py:
             --fragment "from termfrequency import compute_tf_cookbook" --count 1
             --fragment "test_" --count 5
+            --fragment "TODO" --count 0 --exact
 # --> check the technical writing
 # mdl is a Markdown linting tool
 # proselint checks writing for common mistakes
