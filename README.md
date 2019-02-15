@@ -204,6 +204,7 @@ test suite's execution and the defects in the program under test.
 - tests/test_compute_tf_cookbook.py:
   - Features the import statement `from termfrequency import compute_tf_cookbook`
   - Features at least five test cases that start with `test_`
+  - Does not contain any markers to indicate not-completed student work
   - Runs correctly through `pipenv` without crashing or failing a test
 
 - writing/reflection.md:
