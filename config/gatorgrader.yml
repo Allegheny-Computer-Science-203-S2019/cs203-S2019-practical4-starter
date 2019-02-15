@@ -8,6 +8,7 @@ indent: 4
 termfrequency:
         compute_tf_cookbook.py:
             --single 12 --language Python
+            --fragment "TODO" --count 0 --exact
 tests:
         test_compute_tf_cookbook.py:
             --fragment "from termfrequency import compute_tf_cookbook" --count 1
